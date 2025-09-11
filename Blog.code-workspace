@@ -3,5 +3,12 @@
     {
       "path": "."
     }
-  ]
+  ],
+  "settings": {
+    "svelte.enable-ts-plugin": true,
+    "[svelte]": {
+      "editor.defaultFormatter": "denoland.vscode-deno",
+      "editor.tabSize": 2,
+    },
+  }
 }
