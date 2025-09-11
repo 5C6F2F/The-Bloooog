@@ -1,0 +1,47 @@
+body {
+    background-color: #f7f7f7;
+    line-height: 1.7;
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        margin-top: 3rem;
+        padding-bottom: 0.2rem;
+        border-bottom: 1px solid #ccc;
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    a {
+        color:inherit;
+    }
+
+    pre:has(code) {
+        font-family: "Consolas, '游ゴシック', 'Courier New', monospace";
+        font-size: 14px;
+        line-height: 1.2;
+        background-color: #ececec;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .tag {
+        display: inline-block;
+        background-color: #e5e5e5;
+        color: #333;
+        padding: 0.2rem 0.6rem;
+        border-radius: 12px;
+        font-size: 0.8rem;
+        margin-right: 0.5rem;
+        line-height: 1.7;
+
+        &:hover {
+            background-color: #d5d5d5;
+        }
+    }
+}
