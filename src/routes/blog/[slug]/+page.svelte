@@ -34,8 +34,6 @@
   </div>
 </article>
 
-<p>これは<a href="https://google.com">google</a>のページです。</p>
-
 <style lang="scss">
   .post-header {
     padding-bottom: 1rem;
