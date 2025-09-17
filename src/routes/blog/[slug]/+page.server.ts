@@ -1,4 +1,4 @@
-import { getPosts } from "$lib/getPosts.js";
+import { getPosts } from "$lib/getPosts";
 import { error } from "@sveltejs/kit";
 
 export async function load({ params }) {

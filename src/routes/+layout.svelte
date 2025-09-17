@@ -61,8 +61,8 @@
 
 <style lang="scss">
   .container {
-          max-width: 800px;
-          margin: 0 auto;
+    max-width: 800px;
+    margin: 0 auto;
 
     header {
       display: flex;
