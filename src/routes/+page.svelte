@@ -1,5 +1,5 @@
 <svelte:head>
-     <title>Home - The-Bloooog</title>
+  <title>Home - The-Bloooog</title>
 </svelte:head>
 
 <h1>このホームページについて</h1>
