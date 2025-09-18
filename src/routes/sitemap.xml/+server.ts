@@ -27,7 +27,6 @@ export const GET: RequestHandler = async () => {
 async function getPostsAndTags(allPosts: Post[]) {
   const posts = allPosts.map((post) => ({
     values: [post.slug],
-    lastmod: post.updateDate || post.date,
   }));
 
   const allTags = allPosts.flatMap((post) => post.tags);
