@@ -1,0 +1,20 @@
+{
+  "plugins": {},
+  "filters": {},
+  "rules": {
+    "common-misspellings": true,
+    "preset-ja-technical-writing": {
+      "no-exclamation-question-mark": false,
+      "no-mix-dearu-desumasu": false
+    },
+    "preset-jtf-style": {
+      "1.1.3.箇条書き": false,
+      "4.2.1.感嘆符(！)": false,
+      "4.2.2.疑問符(？)": false,
+      "4.2.7.コロン(：)": false,
+      "4.3.1.丸かっこ（）": false
+    },
+    "spellcheck-tech-word": true,
+    "@textlint-ja/preset-ai-writing": true
+  }
+}
