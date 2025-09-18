@@ -13,8 +13,6 @@ services:
       - type: bind
         source: C:/Users/bouningen/.ssh
         target: /root/.ssh
-    ports:
-      - 5173:5173
     command: [ "bash" ]
 
 volumes:
