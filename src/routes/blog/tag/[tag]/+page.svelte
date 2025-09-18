@@ -40,13 +40,12 @@
 
   ul {
     font-size: 1.1rem;
-    line-height: 1.1;
     list-style: none;
     padding: 0;
     margin-bottom: 2rem;
 
     li {
-      margin-bottom: 1.4rem;
+      margin-bottom: 1rem;
 
       .post-link {
         border-radius: 10px;
