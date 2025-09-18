@@ -3,6 +3,8 @@ import * as sitemap from "super-sitemap";
 import { getPosts } from "$lib/getPosts";
 import type { Post } from "$lib/types";
 
+export const prerender = true;
+
 export const GET: RequestHandler = async () => {
   const allPosts = await getPosts();
   const { posts, tags } = await getPostsAndTags(allPosts);
