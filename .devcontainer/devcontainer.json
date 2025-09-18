@@ -1,0 +1,28 @@
+{
+  "name": "Blog",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "blog",
+  "workspaceFolder": "/blog",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "leodevbro.blockman",
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "MS-CEINTL.vscode-language-pack-ja",
+        "PKief.material-icon-theme",
+        "shardulm94.trailing-spaces",
+        "vscodevim.vim",
+        "tal7aouy.indent-colorizer",
+        "3w36zj6.textlint",
+        "denoland.vscode-deno",
+        "kisstkondoros.vscode-codemetrics",
+        "glenn2223.live-sass",
+        "yzhang.markdown-all-in-one",
+        "christian-kohler.path-intellisense",
+        "YoavBls.pretty-ts-errors",
+        "svelte.svelte-vscode"
+      ]
+    }
+  }
+}
