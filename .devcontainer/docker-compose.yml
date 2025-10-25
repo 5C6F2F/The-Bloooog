@@ -7,13 +7,10 @@ services:
       dockerfile: ./Dockerfile
       context: .
     volumes:
-      - type: volume
-        source: blog
+      - type: bind
+        source: /home/bouningen/programs/Blog
         target: /blog
       - type: bind
-        source: C:/Users/bouningen/.ssh
+        source: /home/bouningen/.ssh
         target: /root/.ssh
     command: [ "bash" ]
-
-volumes:
-  blog:

@@ -21,7 +21,8 @@
         "yzhang.markdown-all-in-one",
         "christian-kohler.path-intellisense",
         "YoavBls.pretty-ts-errors",
-        "svelte.svelte-vscode"
+        "svelte.svelte-vscode",
+        "DavidAnson.vscode-markdownlint"
       ]
     }
   }
